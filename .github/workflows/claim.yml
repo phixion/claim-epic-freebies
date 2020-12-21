@@ -34,3 +34,4 @@ jobs:
 
             - name: Get Epic Freebies
               run: yarn start ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }} 0 ${{ secrets.SECRETKEY }}
+
